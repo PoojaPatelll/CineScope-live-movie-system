@@ -72,7 +72,7 @@ cinescope/
 - Visual dashboard for analytics  
 - Store more detailed movie metadata
 
-  ## ⚡ Challenges Faced
+## ⚡ Challenges Faced
 - Handling API connection errors and retries  
 - Preventing duplicate entries in database  
 - Mapping inconsistent movie titles between datasets  
