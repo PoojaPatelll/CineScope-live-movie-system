@@ -59,6 +59,11 @@ cinescope/
 - Watchlist table stores user-tracked content  
 - Foreign key relationship ensures data consistency  
 
+## 🗺️ ER Diagram
+
+This diagram represents the relational structure of the system, including core entities like movies, watchlist, and analytics tables.
+
+![ER Diagram](er_diagram.png)
 
 ## 🔥 Key Highlights
 - Built a real-time data pipeline integrating API + database  
