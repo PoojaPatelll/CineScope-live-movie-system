@@ -23,11 +23,14 @@ CineScope is a live movie and series analytics system that fetches real-time dat
 
 
 ## 🗂️ Project Structure
+
+```
 cinescope/
 │── fetch_movies.py
 │── requirements.txt
 │── schema.sql
 │── README.md
+```
 
 
 ## ⚙️ Setup Instructions
