@@ -11,7 +11,21 @@ CineScope is a live movie and series analytics system that fetches real-time dat
 - 🔗 Relational database design with foreign key constraints  
 - 📋 Watchlist feature to track movies and series  
 - 🧠 SQL queries for data analysis (joins, aggregations, trends)  
-- ⚠️ Error handling and retry mechanism for API failures  
+- ⚠️ Error handling and retry mechanism for API failures
+
+## 📸 Project Screenshots
+
+### 🎬 Movies Table
+![Movies](movies.png)
+
+### 📋 Watchlist Table
+![Watchlist](watchlist.png)
+
+### 🔗 Watchlist with Movie IDs (Join)
+![Join](join.png)
+
+### 📊 Data Analysis
+![Analytics](analytics.png)
 
 
 ## 🛠️ Tech Stack
