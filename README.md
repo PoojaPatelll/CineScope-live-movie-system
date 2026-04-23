@@ -70,7 +70,19 @@ cinescope/
 ## 📌 Future Improvements
 - Add web interface for user interaction  
 - Visual dashboard for analytics  
-- Store more detailed movie metadata  
+- Store more detailed movie metadata
+
+  ## ⚡ Challenges Faced
+- Handling API connection errors and retries  
+- Preventing duplicate entries in database  
+- Mapping inconsistent movie titles between datasets  
+
+## 🧠 Learnings
+- Implemented real-time API data fetching using Python  
+- Designed relational database with foreign key constraints  
+- Performed SQL joins and aggregation queries  
+- Built automated data pipeline using Task Scheduler  
+- Handled API failures and ensured data consistency
 
 
 ## 👩‍💻 Author
