@@ -1,5 +1,7 @@
 # CineScope – Real-Time Movie Analytics & Data Pipeline System
-
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![MySQL](https://img.shields.io/badge/MySQL-Database-orange)
+![API](https://img.shields.io/badge/API-TMDB-green)
 ## 📌 Overview
 CineScope is a real-time movie analytics and data pipeline system that fetches real-time data from the TMDB API, stores it in a MySQL database, and updates automatically on a daily basis. The system is designed to handle duplicates, maintain clean data, and support relational queries.
 
