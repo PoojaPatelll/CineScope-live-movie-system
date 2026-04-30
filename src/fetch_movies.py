@@ -3,7 +3,8 @@ import time
 import mysql.connector
 
 # 🔐 PUT YOUR REAL API KEY HERE
-API_KEY = "c1fa6ed67c6c494a28bab5054a637208"
+import os
+API_KEY = os.getenv("TMDB_API_KEY")
 
 url = f"https://api.themoviedb.org/3/trending/movie/day?api_key={API_KEY}"
 
