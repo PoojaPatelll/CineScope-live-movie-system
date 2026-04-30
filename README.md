@@ -1,8 +1,11 @@
 # CineScope – Real-Time Movie Analytics & Data Pipeline System
 
 ## 📌 Overview
-CineScope is a live movie and series analytics system that fetches real-time data from the TMDB API, stores it in a MySQL database, and updates automatically on a daily basis. The system is designed to handle duplicates, maintain clean data, and support relational queries.
+CineScope is a real-time movie analytics and data pipeline system that fetches real-time data from the TMDB API, stores it in a MySQL database, and updates automatically on a daily basis. The system is designed to handle duplicates, maintain clean data, and support relational queries.
 
+## 🎯 Purpose
+
+This project was built to simulate a real-world data pipeline where movie data is continuously fetched, processed, and stored for analysis.
 
 ## 🚀 Features
 - 🔄 Fetches real-time trending movies using TMDB API  
@@ -61,10 +64,15 @@ cinescope/
 ## ⚙️ Setup Instructions
 1. Clone the repository  
 2. Install dependencies:  pip install -r requirements.txt
-3. Set your TMDB API key in `fetch_movies.py`
-4. Run the script:  python fetch_movies.py
+3. Set your API key using environment variables:
+   export TMDB_API_KEY=your_api_key
+4. Run the script:
+   python src/fetch_movies.py
 
 Note: API key is stored securely using environment variables.
+
+## ▶️ Sample Run Output
+
 
 ## 📊 Database Design
 - Movies table stores movie details  
@@ -85,6 +93,8 @@ Note: API key is stored securely using environment variables.
 This diagram represents the relational structure of the system, including core entities like movies, watchlist, and analytics tables.
 
 ![ER Diagram](assets/er_diagram.png)
+
+*Note: The ER diagram represents an extended scalable design beyond the current implementation.*
 
 ## 🔥 Key Highlights
 - Built a real-time data pipeline integrating API + database  
