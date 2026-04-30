@@ -1,5 +1,5 @@
 # CineScope – Real-Time Movie Analytics & Data Pipeline System
-📊 A backend-focused data pipeline project demonstrating real-time API integration, database design, and automation.
+
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-orange)
 ![API](https://img.shields.io/badge/API-TMDB-green)
