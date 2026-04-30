@@ -63,7 +63,7 @@ cinescope/
 
 This diagram represents the relational structure of the system, including core entities like movies, watchlist, and analytics tables.
 
-![ER Diagram](er_diagram.png)
+![ER Diagram](assets/er_diagram.png)
 
 ## 🔥 Key Highlights
 - Built a real-time data pipeline integrating API + database  
