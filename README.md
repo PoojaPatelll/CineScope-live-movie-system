@@ -64,6 +64,7 @@ cinescope/
 3. Set your TMDB API key in `fetch_movies.py`
 4. Run the script:  python fetch_movies.py
 
+Note: API key is stored securely using environment variables.
 
 ## 📊 Database Design
 - Movies table stores movie details  
