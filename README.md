@@ -60,6 +60,7 @@ cinescope/
 │
 │── requirements.txt
 │── README.md
+│── .gitignore
 ```
 
 
